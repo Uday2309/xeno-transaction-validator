@@ -1,0 +1,23 @@
+{
+  "IN": {
+    "country_name": "India",
+    "phone_length": 10,
+    "date_formats": ["%d-%m-%Y", "%Y-%m-%d", "%d/%m/%Y"],
+    "time_formats": ["%H:%M", "%H:%M:%S"],
+    "allowed_payment_modes": ["UPI", "CARD", "CASH", "NETBANKING", "WALLET"]
+  },
+  "SG": {
+    "country_name": "Singapore",
+    "phone_length": 8,
+    "date_formats": ["%d-%m-%Y", "%Y-%m-%d", "%d/%m/%Y"],
+    "time_formats": ["%H:%M", "%H:%M:%S"],
+    "allowed_payment_modes": ["CARD", "CASH", "PAYNOW", "WALLET"]
+  },
+  "DEFAULT": {
+    "country_name": "Default",
+    "phone_length": 10,
+    "date_formats": ["%d-%m-%Y", "%Y-%m-%d", "%d/%m/%Y"],
+    "time_formats": ["%H:%M", "%H:%M:%S"],
+    "allowed_payment_modes": ["CARD", "CASH", "UPI", "NETBANKING", "WALLET", "PAYNOW"]
+  }
+}
